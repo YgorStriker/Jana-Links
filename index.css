@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@keyframes drowning {
+    from {background-position: 0 0;}
+    to {background-position: 100% 100%;}
+}
+@keyframes efeitinho {
+    from {color: #47f5a7;}
+    to {color:#69d9f5;}
+}
+body {
+    background-image: linear-gradient(to top, #69d9f5 0%, #47f5d5 37%, #47f5a7 67%, #69d9f5 100%);
+    background-size: 300% 300%;
+    animation: drowning 7s infinite alternate;
+}
+.container {
+    padding: 50px;
+    border-radius: 30px;
+    background-color: #ed6ba3;
+    width: 300px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    animation: animacao 5s;
+}
+img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    border: 3px solid;
+    border-color: #47f5a7;
+}
+h1 {
+    color: #47f5a7;
+    margin-top: 31px;
+    margin-bottom: 8px;
+    font-family: 'Ubuntu', sans-serif;
+}
+i {
+    width: 25px;
+}
+a {
+    background: linear-gradient(to top, #03a381, #27e8be);
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-shadow: -1px 1px 2px #000, 1px 1px 2px #000, 1px -1px 0 #000, -1px -1px 0 #000;
+    /*font-family: 'Ubuntu', sans-serif;*/
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 5px;
+}
+a:hover {
+    background: linear-gradient(to top, #ed77aa, #fcbbd7);
+    color: cyan;
+    box-shadow: -2px 2px 3px #27e8be, 2px 2px 3px #27e8be, 2px -2px 0 #27e8be, -2px -2px 0 #27e8be;
+}
+ul {
+    margin-top: 35px;
+    list-style-type: none;
+}
+li {
+    margin-bottom: 16px;
+}
+p {
+    color: #47f5a7;
+    font-family: 'Ubuntu', sans-serif;
+}
+footer {
+    margin-top: 50px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    animation: efeitinho 8s infinite alternate-reverse;
+}
