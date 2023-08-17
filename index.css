@@ -11,7 +11,7 @@
     to {color:#69d9f5;}
 }
 body {
-    background-image: linear-gradient(to top, #69d9f5 0%, #47f5d5 37%, #47f5a7 67%, #69d9f5 100%);
+    background-image: linear-gradient(to top left, #69d9f5 0%, #47f5d5 37%, #47f5a7 67%, #69d9f5 100%);
     background-size: 300% 300%;
     animation: drowning 7s infinite alternate;
 }
